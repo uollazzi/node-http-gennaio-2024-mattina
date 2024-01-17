@@ -1,15 +1,16 @@
 {
-  "name": "node-ts-starter",
+  "name": "node-http",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node ./src/app.ts"
+    "start": "nodemon ./src/app.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "nodemon": "^3.0.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   }
